@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floral Paradise - Premium Flowers Delivery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-top">
+            <div class="logo">
+                <h1>🌸 Floral Paradise</h1>
+            </div>
+            <div class="header-nav">
+                <input type="text" id="search-box" class="search-box" placeholder="Search flowers...">
+                <button id="install-btn" class="install-btn" style="display: none;">
+                    📥 Install App
+                </button>
+                <nav class="navbar">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#flowers" class="nav-link">Shop</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="login.html" class="nav-link">Login</a>
+                    <a href="cart.html" class="nav-link cart-link">🛒 Cart <span id="cart-count" class="cart-badge">0</span></a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Floral Paradise</h2>
+            <p>Discover the most beautiful flowers for every occasion</p>
+            <button class="cta-button">Shop Now</button>
+        </div>
+        <div class="hero-image">
+            <img id="main-image" src="images/mixed.jpg" alt="Beautiful Flower Collection">
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="filter-section">
+        <h3>Filter By Category</h3>
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="roses">Roses</button>
+            <button class="filter-btn" data-filter="lilies">Lilies</button>
+            <button class="filter-btn" data-filter="tulips">Tulips</button>
+            <button class="filter-btn" data-filter="bouquets">Bouquets</button>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section id="flowers" class="flowers-section">
+        <h2>Featured Flowers</h2>
+        <div class="flower-grid">
+            <div class="flower-item" data-category="roses">
+                <div class="flower-card">
+                    <div class="flower-image">
+                        <img src="images/rose.jpg" alt="Red Rose" class="flower-img">
+                        <span class="badge">Featured</span>
+                    </div>
+                    <div class="flower-details">
+                        <h3>Red Rose</h3>
+                        <p class="description">Beautiful fresh red roses, perfect for any occasion</p>
+                        <div class="rating">⭐⭐⭐⭐⭐ (128 reviews)</div>
+                        <div class="price-section">
+                            <span class="price">$10.00</span>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flower-item" data-category="lilies">
+                <div class="flower-card">
+                    <div class="flower-image">
+                        <img src="images/lily.jpg" alt="White Lily" class="flower-img">
+                        <span class="badge">Popular</span>
+                    </div>
+                    <div class="flower-details">
+                        <h3>White Lily</h3>
+                        <p class="description">Elegant white lilies, symbol of purity and grace</p>
+                        <div class="rating">⭐⭐⭐⭐⭐ (95 reviews)</div>
+                        <div class="price-section">
+                            <span class="price">$15.00</span>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flower-item" data-category="tulips">
+                <div class="flower-card">
+                    <div class="flower-image">
+                        <img src="images/tulip.jpg" alt="Colorful Tulip" class="flower-img">
+                        <span class="badge">New</span>
+                    </div>
+                    <div class="flower-details">
+                        <h3>Colorful Tulip</h3>
+                        <p class="description">Vibrant tulips that brighten any space with color</p>
+                        <div class="rating">⭐⭐⭐⭐ (76 reviews)</div>
+                        <div class="price-section">
+                            <span class="price">$8.00</span>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flower-item" data-category="bouquets">
+                <div class="flower-card">
+                    <div class="flower-image">
+                        <img src="images/mixed.jpg" alt="Mixed Bouquet" class="flower-img">
+                        <span class="badge">Best Seller</span>
+                    </div>
+                    <div class="flower-details">
+                        <h3>Mixed Bouquet</h3>
+                        <p class="description">Premium mix of fresh flowers for special moments</p>
+                        <div class="rating">⭐⭐⭐⭐⭐ (156 reviews)</div>
+                        <div class="price-section">
+                            <span class="price">$35.00</span>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>Floral Paradise has been delivering fresh, beautiful flowers since 2010. We pride ourselves on quality, freshness, and exceptional customer service.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Floral Paradise. All rights reserved.</p>
+            <p>Contact: info@floralparadise.com | Phone: 1-800-FLOWERS</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
