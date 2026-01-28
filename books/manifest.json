@@ -1,8 +1,8 @@
 {
-    "name": "Floral Shop PWA",
-    "short_name": "FloralShop",
-    "description": "A progressive web app for ordering flowers",
-    "start_url": "/floral.html",
+    "name": "Book Shop PWA",
+    "short_name": "BookShop",
+    "description": "A progressive web app for ordering books",
+    "start_url": "/book.html",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#4CAF50",

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Shop PWA</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="theme-color" content="#4CAF50">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Book Shop</h1>
+        <p>Your one-stop shop for amazing books</p>
+    </header>
+    <main>
+        <section id="books">
+            <h2>Our Books</h2>
+            <div class="book-item">
+                <h3>Adventure Stories</h3>
+                <p>Thrilling tales of exploration and discovery.</p>
+                <button onclick="addToCart('Adventure Stories')">Add to Cart</button>
+            </div>
+            <div class="book-item">
+                <h3>Mystery Novels</h3>
+                <p>Suspenseful plots that keep you guessing.</p>
+                <button onclick="addToCart('Mystery Novels')">Add to Cart</button>
+            </div>
+            <div class="book-item">
+                <h3>Science Fiction</h3>
+                <p>Imaginative worlds and futuristic concepts.</p>
+                <button onclick="addToCart('Science Fiction')">Add to Cart</button>
+            </div>
+        </section>
+        <section id="cart">
+            <h2>Cart</h2>
+            <ul id="cart-list"></ul>
+            <button onclick="clearCart()">Clear Cart</button>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

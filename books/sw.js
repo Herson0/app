@@ -1,7 +1,7 @@
-const CACHE_NAME = 'floral-shop-v1';
+const CACHE_NAME = 'book-shop-v1';
 const urlsToCache = [
     '/',
-    '/floral.html',
+    '/book.html',
     '/styles.css',
     '/app.js',
     '/manifest.json'
